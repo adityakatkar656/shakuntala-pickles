@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+     
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shakuntala Pickles</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+     <div class="hero">
+        <img src="frontpage.jpg" alt="Background">
+
+        <div class="content">
+            <h3 class="brand-name">SHAKUNTALA PICKLES</h3>
+            <h1> Bringing Grandma's Recipes,<br><span class="black-text">To Your</span>Table</h1>
+            <p>
+                Handcrafted with traditional recipes, natural ingredients, 
+                <br > and authentic flavors that <br>bring the warmth of home to every meal.
+            </p>
+
+
+
+            <button onclick="nextpage()">Explore the jars</button>
+        </div>
+    
+    </div>
+       <div class="products-container">
+
+        <div class="card">
+            <img src="mango.jpg" alt="Mango Pickle">
+            <h3>Mango Pickle</h3>
+            <p>Traditional homemade mango pickle.</p>
+            <button onclick="location.href='mango.html'">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="karvanda.jpg" alt="Karvanda Pickle">
+            <h3>Karvanda Pickle</h3>
+            <p>Traditional Ayurvedic specialty.</p>
+            <button onclick="location.href='karvanda.html'">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="chilli.jpg" alt="Chilli Pickle">
+            <h3>Chilli Pickle</h3>
+            <p>Spicy and flavorful pickle.</p>
+            <button onclick="location.href='chilli.html'">View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="lemon.jpg" alt="Lemon Pickle">
+            <h3>Lemon Pickle</h3>
+            <p>Tangy homemade lemon pickle.</p>
+            <button onclick="location.href='lemon.html'">View Details</button>
+        </div>
+
+    </div>
+</body>
+<script>
+    function nextpage() {
+        window.location.href = "products.html";
+    }
+</script>
+</html>
